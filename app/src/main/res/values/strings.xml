@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GameOfThrones</string>
+    <string name="title_activity_lannister">LannisterActivity</string>
+</resources>
