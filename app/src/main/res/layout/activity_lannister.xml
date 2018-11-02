@@ -4,51 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LannisterActivity">
+    tools:context=".LannisterActivity"
+    android:screenOrientation="portrait">
 
     <ImageView
-        android:id="@+id/lannisterImageViewBtn"
-        android:layout_width="101dp"
-        android:layout_height="119dp"
+        android:id="@+id/lannisterImageView"
+        android:layout_width="107dp"
+        android:layout_height="118dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:src="@drawable/lannister"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045"
-        app:srcCompat="@drawable/lannister" />
+        app:layout_constraintVertical_bias="0.02" />
 
     <TextView
         android:id="@+id/lannisterTextView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/lannisterImageView"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="House Lannister"
-        android:textSize="24sp"
+        android:textSize="22dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lannisterImageViewBtn"
+        app:layout_constraintTop_toBottomOf="@+id/lannisterImageView"
         app:layout_constraintVertical_bias="0.0" />
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/lannisterRecyclerView"
-        android:layout_width="368dp"
-        android:layout_height="311dp"
+        android:id="@+id/lannisterRecycleView"
+        android:layout_width="354dp"
+        android:layout_height="325dp"
+        android:layout_below="@id/lannisterTextView"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lannisterTextView" />
 </android.support.constraint.ConstraintLayout>

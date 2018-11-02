@@ -2,10 +2,11 @@ package com.example.nadavlotan.gameofthrones;
 
 class FamilyMember {
 
+    // create a new object, FamilyMember, which holds a members name and a picture as an int
     String name;
     int picture;
 
-    public FamilyMember(String name,int picture){
+    public FamilyMember(String name, int picture) {
         this.name = name;
         this.picture = picture;
     }

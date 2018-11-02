@@ -16,7 +16,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.MyViewHolder> 
 
     private List<FamilyMember> mDataSet;
 
-    public ListAdapter(List<FamilyMember> mDataSet){
+    public ListAdapter(List<FamilyMember> mDataSet) {
         this.mDataSet = mDataSet;
     }
 
@@ -40,6 +40,9 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.MyViewHolder> 
         return mDataSet.size();
     }
 
+    /**
+     * Sets my own customized viewHolder
+     **/
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
         TextView textView;
