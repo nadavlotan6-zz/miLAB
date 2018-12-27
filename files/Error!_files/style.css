@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Error!</title>
+    <link rel="shortcut icon" type="image/png" href="https://img.icons8.com/metro/1600/avengers.png">
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div style="text-align: center">
+        <h1>Error!</h1>
+        <div>
+            <img style="max-width: 15%; max-height: 15%" src="https://img.icons8.com/metro/1600/avengers.png"></img>
+        </div>
+        <h2>The photo you have chosen can't be found!</h2>
+        <br>
+        <hr>
+        <h3>You can choose from the following files:</h3>
+        <div style="text-align: center">
+            <ul>
+               <li>thor.png</li>
+                <li>spiderman.png</li>
+                <li>ironman.png</li>
+                <li>blackpanther.png</li>
+                <li>captainamerica.png</li>
+                <li>hulk.png</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

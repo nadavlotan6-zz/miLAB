@@ -1,0 +1,15 @@
+{
+  "name": "stream_server",
+  "version": "1.0.0",
+  "description": "A simple server using express that returns static files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nadav Lotan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "now-logs": "0.0.7"
+  }
+}
