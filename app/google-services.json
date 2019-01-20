@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "232460979673",
+    "firebase_url": "https://ex6milab.firebaseio.com",
+    "project_id": "ex6milab",
+    "storage_bucket": "ex6milab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232460979673:android:9f03b7ab39576aa4",
+        "android_client_info": {
+          "package_name": "com.example.nadavlotan.stockprices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232460979673-q42kejkh89r71geetdb4kofuev017sa2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nadavlotan.stockprices",
+            "certificate_hash": "631dc59fa015011b7a7e4b4b5b756987a3566318"
+          }
+        },
+        {
+          "client_id": "232460979673-9vdskt23ak5d2ir5qqcl22f9vob1m44d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH9c9Pg8epVGIXrSodVswRJa1-nNx_NQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232460979673-9vdskt23ak5d2ir5qqcl22f9vob1m44d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
